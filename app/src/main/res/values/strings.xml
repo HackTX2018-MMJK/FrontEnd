@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">PlaneApp2</string>
-    <string name="loginbox">Input Custom PIN</string>
-    <string name="logindialog">INPUT YOUR CUSTOM PIN</string>
+    <string name="pinput">Input Custom PIN</string>
+    <string name="title_activity_main_driver">MainDriver</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
 </resources>

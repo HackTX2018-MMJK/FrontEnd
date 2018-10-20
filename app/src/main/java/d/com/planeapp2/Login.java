@@ -1,5 +1,6 @@
 package d.com.planeapp2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -25,12 +26,17 @@ public class Login extends AppCompatActivity {
                     // API call gives error or row/seat combo]
 
                     //ON SUCCESS
-
-                    setContentView(R.layout.activity_main_driver);
+                    launchActivity();
                     return true;
                 }
                 return false;
             }
         });
+    }
+
+    private void launchActivity() {
+        Intent intent = new Intent(this, MainDriver.class);
+        startActivity(intent);
+        finish();
     }
 }

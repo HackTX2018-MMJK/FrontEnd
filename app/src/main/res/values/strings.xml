@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PlaneApp2</string>
+    <string name="loginbox">Input Custom PIN</string>
+    <string name="logindialog">INPUT YOUR CUSTOM PIN</string>
+</resources>

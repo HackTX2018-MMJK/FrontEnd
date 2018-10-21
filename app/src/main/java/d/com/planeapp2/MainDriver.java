@@ -36,10 +36,12 @@ public class MainDriver extends AppCompatActivity {
      */
     private ViewPager mViewPager;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_driver);
+        UUID = getIntent().getStringExtra("UUID");
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -125,6 +127,8 @@ public class MainDriver extends AppCompatActivity {
             return rootView;
         }
     }
+
+
 
 
 
